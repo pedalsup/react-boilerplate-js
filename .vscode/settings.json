@@ -4,19 +4,24 @@
     "editor.tabSize": 4,
     "editor.autoIndent": "full",
     "editor.detectIndentation": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features",
     "[html]": {
         "editor.tabSize": 4
     },
     "[javascript]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
     },
     "[typescript]": {
         "editor.tabSize": 4
     },
     "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features",
         "editor.tabSize": 4
     },
     "[json]": {
         "editor.tabSize": 4
-    }
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
 }
